@@ -1,0 +1,21 @@
+let largoPelo = ['largo', 'corto'];
+let barba = ['si', 'no'];
+
+largoPelo = prompt("¿Tiene pelo largo o pelo corto?")
+if(largoPelo[0] && barba[0])
+	
+if(largoPelo[0] && barba[0]) {
+
+    alert("Desea un corte de pelo y una afeitada?");
+
+} else if(largoPelo[0] && barba[1]) {;
+
+        alert("Desea un corte de pelo?");
+
+} else if(largoPelo[1] && barba[0]) {;
+
+        alert("Desea una afeitada?");
+
+} else {
+
+	alert("Qué hace usted aquí?");

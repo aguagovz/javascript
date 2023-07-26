@@ -1,0 +1,53 @@
+Variables constantes
+const
+
+Variables que cambian
+
+let docente
+-> inicializar la variable
+
+let docente = "fede"
+-> asignación de valor a la variable docente
+
+primitives
+- string (valores escritos con letras, entre comillas)
+- number (valores escritos con numeros, sin comillas)
+- boolean (valor verdadero/falso)
+
+para ver el tipo de variable
+typeof(variablEenCuestion)
+
+para ver el VALOR de la varibale
+conseole.log(variableEnCuestion);
+
+alert(variableEnCuestion);
+variableEnCuestion = prompt("Mensaje para pedir que asignen un valor");
+
+operaciones
+se pueden hacer operaciones aritmeticas
+
+EL IGUAL
+= asignación
+== es igual no estricta (compara solo valor)
+=== es igual estricta (compara valor y typeof)
+
+!= es distinto no estricta (compara solo valor)
+!== es distinto estricta (compara valor y typeof)
+
+OPERADORES
+&& and (es verdadero solo cuando todos los operandos son verdaderos)
+|| or (es verdadero cuando al menos un operando es vddero)
+! not (invierte)
+
+
+if ... else
+if(1===2) {
+   	console.log("Te odio");
+} else {
+	console.log("Te amo");}
+
+para la prox:
+ver truthy y falsy
+investigar switch
+hacer 02 03 04
+
